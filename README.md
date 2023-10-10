@@ -89,9 +89,9 @@ If you want to test without Telegram, you can open the game as a regular web pag
 ## Example Deploy to Railway 
 1. Create an account on [Railway](https://railway.app?referralCode=EBtZTQ)
 2. Create new github repo.
-3. Go to [/server](/server)
-4. Open the terminal here.
-5.  Run `git init` yes, yes git inside a git . All `.gitignore` are configured properly.
+3. Go to [/server](/server) - Copy&Paste the folder somewhere outside the project (outside your .git) <- Place future builds in this folder.
+4. Open the terminal in the copied folder.
+5.  `git init`
 6.  `git add .`
 7.  `git commit -m "first"`
 8.  `git branch -M main`
