@@ -90,19 +90,20 @@ If you want to test without Telegram, you can open the game as a regular web pag
 1. Create an account on [Railway](https://railway.app?referralCode=EBtZTQ)
 2. Create new github repo.
 3. Go to [/server](/server) - Copy&Paste the folder somewhere outside the project (outside your .git) <- Place future builds in this folder.
-4. Open the terminal in the copied folder.
-5.  `git init`
-6.  `git add .`
-7.  `git commit -m "first"`
-8.  `git branch -M main`
-9.  `git remote add origin https://github.com/...your_created_git_repo`
-10.  `git push -u origin main`
-11.  Go to [Railway](https://railway.app/new?referralCode=EBtZTQ)
-12.  Select **Deploy from Git Repo**
-13.  Select **Configure GitHub App** and link the created project.
-14.  The application will be deployed automatically with each git push.
-15.  Select the app in the Railway dashboard. The menu opens. Select the **Variables** tab.
-16.  Setup env:
+4. Open the terminal in the copied folder:
+5.  `npm install`
+6.  `git init`
+7.  `git add .`
+8.  `git commit -m "first"`
+9.  `git branch -M main`
+10.  `git remote add origin https://github.com/...your_created_git_repo`
+11.  `git push -u origin main`
+12.  Go to [Railway](https://railway.app/new?referralCode=EBtZTQ)
+13.  Select **Deploy from Git Repo**
+14.  Select **Configure GitHub App** and link the created project.
+15.  The application will be deployed automatically with each git push.
+16.  Select the app in the Railway dashboard. The menu opens. Select the **Variables** tab.
+17.  Setup env:
    - BOT_TOKEN - your production telegram bot token
    - HOOK_PATH - any [random](https://guidgenerator.com/) string `a-z` `A-Z` `_`  `-` `0-9`
    - NODE_ENV - You can leave it blank or enter **production**
