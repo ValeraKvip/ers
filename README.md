@@ -174,7 +174,6 @@ The server should set a header when it returns a compressed file:
 ```
 [Check out the documentation](https://docs.unity3d.com/Manual/webgl-deploying.html)
 
-
 > Invoking error handler due to
 > RuntimeError: null function or function signature mismatch
 
